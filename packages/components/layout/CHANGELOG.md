@@ -1,5 +1,11 @@
 # @kleeneui/layout
 
+## 0.0.6
+
+### Patch Changes
+
+- 720142f: Add Layout components
+
 ## 0.0.5
 
 ### Patch Changes
