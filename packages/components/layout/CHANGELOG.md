@@ -1,5 +1,11 @@
 # @kleeneui/layout
 
+## 0.0.5
+
+### Patch Changes
+
+- a3da238: Testing TailwindCSS classnames
+
 ## 0.0.4
 
 ### Patch Changes
