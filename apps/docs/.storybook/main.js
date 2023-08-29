@@ -17,7 +17,7 @@ module.exports = {
             find: "@kleeneui/core",
             replacement: path.resolve(
               __dirname,
-              "../../../packages/kleeneui-core/"
+              "../../../packages/core/"
             ),
           },
         ],

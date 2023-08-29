@@ -1,5 +1,5 @@
 {
-  "name": "@kleeneui/utils",
+  "name": "@kleeneui/layout",
   "version": "0.0.1",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -12,7 +12,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ggenzone/kleeneui.git",
-    "directory": "packages/utils"
+    "directory": "packages/components/layout"
   },
   "scripts": {
     "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
