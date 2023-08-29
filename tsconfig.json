@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Default",
+  "display": "React Library",
   "compilerOptions": {
     "composite": false,
     "declaration": true,
@@ -14,7 +14,12 @@
     "noUnusedParameters": false,
     "preserveWatchOutput": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "jsx": "react-jsx",
+    "lib": ["dom", "ES2015"],
+    "module": "ESNext",
+    "target": "es6"
   },
-  "exclude": ["node_modules"]
+  "exclude": ["**/node_modules", "**/dist", "**/.turbo"]
 }
+  
