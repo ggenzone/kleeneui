@@ -1,5 +1,3 @@
-import * as React from "react"
-
 export interface LayoutProps {
   children: React.ReactNode
   className?: string
@@ -16,7 +14,5 @@ export function Layout (props: LayoutProps): JSX.Element {
     </div>
   )
 }
-
-
 
 Layout.displayName = "Layout"
