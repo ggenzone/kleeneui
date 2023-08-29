@@ -1,3 +1,21 @@
+# Install
+
+```bash
+npm i @kleeneui/layout
+```
+
+
+Add to the `tailwind.config.js` file the following line
+
+```javascript
+  content: [
+    ...
+    "./node_modules/@kleeneui/layout/dist/**/*.{js,ts,jsx,tsx}",
+    ...
+  ]
+
+```
+
 # Turborepo Design System Starter
 
 This guide explains how to use a React design system starter powered by:
