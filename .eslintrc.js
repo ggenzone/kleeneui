@@ -1,10 +1,32 @@
 module.exports = {
-  root: true,
-  // This tells ESLint to load the config from the package `eslint-config-acme`
-  extends: ["kleeneui"],
-  settings: {
-    next: {
-      rootDir: ["apps/*/"],
+    "env": {
+        "browser": true,
+        "es2021": true
     },
-  },
-};
+    "extends": [
+        "standard-with-typescript",
+        "plugin:react/recommended"
+    ],
+    "overrides": [
+        {
+            "env": {
+                "node": true
+            },
+            "files": [
+                ".eslintrc.{js,cjs}"
+            ],
+            "parserOptions": {
+                "sourceType": "script"
+            }
+        }
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+    }
+}
